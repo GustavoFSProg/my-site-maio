@@ -1,0 +1,15 @@
+import {Container} from './styled-menu'
+
+function Menu(){
+  return (
+    <Container >
+      {/* <div >
+          <Link to="/home" >
+          HOME
+          </Link>
+        </div>    {/*  */}
+        cmfcfjhgk
+    </Container>  )
+}
+
+export default Menu

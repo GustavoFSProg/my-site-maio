@@ -1,0 +1,20 @@
+import { Link, NavLink } from 'react-router-dom'
+import {Container} from './styled-menu'
+
+function Menu(){
+  return (
+    <Container >
+      <div >
+        
+          <Link to="/home" >
+          HOME
+          </Link>
+        </div>    
+{/* 
+          <Link to="/" >
+          APP
+          </Link> */}
+    </Container>  )
+}
+
+export default Menu
