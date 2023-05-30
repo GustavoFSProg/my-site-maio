@@ -7,10 +7,10 @@ export const Container = styled.div `
  background: #4dd2ff;
  align-items: center;
  justify-content: center;
-/* 
+ 
 
 @media screen and (max-width: 800px){
   display: none;
-    } */
+    }
 
  `

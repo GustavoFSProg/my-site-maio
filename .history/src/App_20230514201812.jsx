@@ -7,27 +7,14 @@ import { Link } from 'react-router-dom'
 import SieBarLeft from './components/SidebarLeft'
 import SidebarRight from './components/SidebarRight'
 import flores from './assets/flores.jpg'
-import styled  from 'styled-components'
 
- const ContainerImg = styled.img`
- display:flex;
-
- @media screen and  (max-width: 950px ){
-  width: 100%;
-  height: 15rem;
-  display: flex;  
- }
-
- `
-
- function App() {
+function App() {
 
   return (
   
     <>
     <Menu />
-    <div style={{display: 'flex', width: '98vw', alignItems: 'center',
-  justifyContent: 'center' }} >
+    <div style={{display: 'flex', width: '98vw', }} >
         <SieBarLeft  />
     <div style={{display: 'flex', width: '100%', marginRight: '-9px',  
     justifyContent: 'right'}} >
@@ -38,8 +25,7 @@ import styled  from 'styled-components'
 
           <h2 style={{color: 'green'}}>
             Plantação de Flores                      </h2>
-
-                <ContainerImg width="770" height="450" src={flores} alt="imagem"/>
+      <img width="770" height="450" src={flores} alt="imagem"/>
 
       <div style={{display: 'flex', marginTop: '3px', width: '90%', 
     justifyContent: 'space-between', clolor: 'black'}} >
