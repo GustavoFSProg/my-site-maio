@@ -15,6 +15,25 @@ export const ContainerDiv = styled.div `
     }
  `
 
+export const Button = styled.button ` 
+ display: flex;
+  margin-top: -34px; height: 40px;
+              border-radius: 5px; border: none ; background: lightblue;
+               width: 33.5rem; margin-left: 30px; align-items: center;
+              justify-content: center;
+cursor: pointer; 
+              transition: 0.6s;
+
+              &:hover {
+                background: green;
+              }
+
+@media screen and (max-width: 800px){
+ display: flex;
+ width: 113%;
+   }
+`
+
 function Register() {
   const [password, setPassword] = useState('')
   const [email, setEmail] = useState('')
@@ -58,14 +77,9 @@ function Register() {
         invalid={true}
         // errorMessage="Email inválido"
       />
-            <button style={{
-              display: 'flex', marginTop: '-34px', height: '40px',
-              borderRadius: '5px', border: 'none',background: 'lightblue',
-               width: '33.5rem', marginLeft: '30px', alignItems: 'center',
-              justifyContent: 'center'
-            }} >
+            <Button >
               Cadastrar
-            </ button>
+            </ Button>
           </ form >
         </div>
 
