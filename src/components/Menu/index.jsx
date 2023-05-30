@@ -24,14 +24,7 @@ function Menu(){
           </Link>
         </div>
 
-        <div style={{ marginLeft: '35px' }}>
-          <Link
-            style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
-            to="/login"
-          >
-            LOGIN
-          </Link>
-        </div>
+      
 
         <div style={{ marginLeft: '35px' }}>
           <Link
