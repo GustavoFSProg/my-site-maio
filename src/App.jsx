@@ -1,4 +1,4 @@
-import Menu from './components/Menu/index'
+import Header from './components/header/Header'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -25,7 +25,7 @@ import styled  from 'styled-components'
   return (
   
     <>
-    <Menu />
+    <Header />
     <div style={{display: 'flex', width: '98vw', alignItems: 'center',
   justifyContent: 'center' }} >
         <SieBarLeft  />

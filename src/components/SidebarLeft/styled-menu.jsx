@@ -10,7 +10,8 @@ export const Container = styled.div `
  
 
 @media screen and (max-width: 800px){
-  display: none;
+  visibility: hidden;
+
     }
 
  `
