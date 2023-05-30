@@ -5,7 +5,6 @@ import { Link } from 'react-router-dom'
 function Menu(){
   return (
     <div>
-
        <Container >
          <div style={{ marginLeft: '40px' }}>
           <Link 
@@ -20,7 +19,7 @@ function Menu(){
             style={{ textDecoration: 'none', fontFamily: 'Roboto', color: 'black  ' }}
             to="/register"
           >
-            CADASTRO
+            REGISTER
           </Link>
         </div>
 
