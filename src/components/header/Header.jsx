@@ -129,6 +129,15 @@ function Header() {
               HOME
             </Link>
           </div>
+          <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
+            <Link
+
+              style={{ cursor: 'pointer', fontSize: '21px', textDecoration: 'none', fontFamily: 'Roboto', color: 'white  ' }}
+              to="/register"
+            >
+              CADASTRO
+            </Link>
+          </div>
 
           <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
             <Link
@@ -150,15 +159,7 @@ function Header() {
             </Link>
           </div>
 
-          <div style={{ marginLeft: '25px', marginBottom: '4px', marginTop: '15px', }}>
-            <Link
-
-              style={{ cursor: 'pointer', fontSize: '21px', textDecoration: 'none', fontFamily: 'Roboto', color: 'white  ' }}
-              to="/register"
-            >
-              CADASTRO
-            </Link>
-          </div>
+         
         </LinksContainerMobile>
 
       </FormDois>
