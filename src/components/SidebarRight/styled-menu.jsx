@@ -10,6 +10,7 @@ export const Container = styled.div `
 
 
 @media screen and (max-width: 800px){
-  display: none;
+  flex-direction: column;
+  background: none;
     }
  `

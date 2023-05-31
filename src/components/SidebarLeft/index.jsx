@@ -11,7 +11,6 @@ function SieBarLeft(){
           <Link 
           style={{ textDecoration: 'none', fontFamily: 'Roboto',
            color: 'black' }} to="/">
-           SidebarLeft
           </Link>
         </div>       
     </Container>

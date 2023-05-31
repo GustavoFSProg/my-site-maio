@@ -5,13 +5,14 @@ import SidebarRight from './components/SidebarRight'
 import styled  from 'styled-components'
 import { Input } from './components/Input'
 import Header from './components/header/Header'
+import React from 'react'
 
 export const ContainerDiv = styled.div ` 
  display:flex;
  
 @media screen and (max-width: 800px){
   display: flex;
-  width: 100vw
+  /* width: 100vw */
     }
  `
 

@@ -44,11 +44,11 @@ export const StyledInput = styled.input`
     font-size: 0.7rem;
     margin-top: -2rem;
   }
+  
   :focus {
     box-shadow: 0px 0px 5px 1px rgba(37, 0, 50, 1);
   }
 `
-// const  move: boolean = false
 
 export const Label = styled.label<{ move: boolean }>`
   position: absolute;

@@ -19,7 +19,7 @@ export const Input = ({
   required = false,
   errorMessage,
   onChange,
-}) => (
+}: InputProps) => (
   <Container>
     <InputContainer>
       <StyledInput type={type} value={value} onChange={onChange} required={required} />

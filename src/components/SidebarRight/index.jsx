@@ -11,7 +11,6 @@ function SidebarRight(){
           <Link 
           style={{ textDecoration: 'none', fontFamily: 'Roboto',
            color: 'black' }} to="/">
-           SidebarRight
           </Link>
         </div>
 
