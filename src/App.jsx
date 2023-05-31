@@ -13,9 +13,10 @@ import styled  from 'styled-components'
  display:flex;
 
  @media screen and  (max-width: 950px ){
-  width: 100%;
+  width: 360px;
   height: 15rem;
   display: flex;  
+  margin-left: 260px;
  }
 
  `
